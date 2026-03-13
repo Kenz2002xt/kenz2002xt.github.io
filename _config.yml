@@ -1,0 +1,7 @@
+title: Kenzie Herrick Portfolio
+description: Game Design & Development
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+
+plugins:
+  - jekyll-remote-theme
