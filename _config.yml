@@ -5,3 +5,9 @@ remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
 plugins:
   - jekyll-remote-theme
+
+  navbar-links:
+  Home: ""
+  About: "about"
+  Projects: "posts"
+  Previous Works: "previous-works"
