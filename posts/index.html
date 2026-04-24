@@ -10,9 +10,9 @@ background: '/assets/img/project-bg.jpg'
 <h3>3D Narrative Survival Game</h3>
 
 <p>
-<strong>Hunger</strong> is a first-person narrative survival game about sacrifice, survival,
+<strong>Hunger</strong> is a first-person narrative survival game about sacrifice, balance,
 and the psychological cost of enduring. The player must survive
-four months (November through February) while caring for their family and feeding
+ten winter days (December 1- December 10th) while caring for their family and feeding
 a mysterious creature named <strong>Don</strong>.
 </p>
 
@@ -35,7 +35,7 @@ Visit my Itch.io page
 <h2>Core Concept</h2>
 
 <p>
-The game takes place on a rural farmhouse during winter. Each day the player must
+The game takes place on a rural farmhouse during winter. Each day, the player must
 decide what they are willing to sacrifice in order to survive. Don, a creature
 living in the barn behind the house, requests abstract needs such as warmth,
 food, or sharp objects. The player must explore the house and interact with
@@ -50,8 +50,8 @@ the state of the player’s home, health, and family relationships.
 <h2>Core Gameplay Loop</h2>
 
 <ul>
-<li><strong>Morning:</strong> Don makes an abstract request (ex: "I need warmth").</li>
-<li><strong>Afternoon:</strong> The player explores the house and talks with family members to discover usable items.</li>
+<li><strong>Morning:</strong> A daily event is given. The player explores the house and talks with family members.</li>
+<li><strong>Afternoon:</strong> Don makes an abstract request (ex: "I need warmth").</li>
 <li><strong>Evening:</strong> The player enters the barn and chooses one item to sacrifice.</li>
 <li><strong>Night:</strong> The world changes based on what was given up.</li>
 </ul>
@@ -69,45 +69,34 @@ Items belong to three hidden categories that track the player's survival state:
 </ul>
 
 <p>
-The player never sees these categories directly. Instead, they learn through
+The player can track these categories through an in-game stat bar. They also learn through
 environmental changes and dialogue.
 </p>
 
 <h3>Examples</h3>
 
 <ul>
-<li>Sacrificing too many <strong>home</strong> items causes the house to decay (mold, structural damage).</li>
+<li>Sacrificing too many <strong>home</strong> items causes the house to decay.</li>
 <li>Sacrificing too many <strong>self</strong> items makes the player sick or exhausted.</li>
-<li>Sacrificing too many <strong>family</strong> items damages relationships and may lead to family members becoming ill or dying.</li>
-</ul>
-
-<h2>Season Structure</h2>
-
-<p>The game progresses through four winter months, each acting as a level.</p>
-
-<ul>
-<li><strong>November (10 days)</strong> – Introduction to mechanics and exploration.</li>
-<li><strong>December (5 days)</strong> – Heavy snow limits travel and exploration.</li>
-<li><strong>January (4 days)</strong> – Extreme cold and fewer available resources.</li>
-<li><strong>February (3 days)</strong> – Final survival push before spring.</li>
+<li>Sacrificing too many <strong>family</strong> items damage relationships.</li>
 </ul>
 
 <h2>Environmental Events</h2>
 
 <p>
-Each day a random event may occur that affects the player’s decisions.
+Each day, a random event may occur that affects the player’s decisions.
 These events can create additional challenges or unexpected advantages.
 </p>
 
 <ul>
 <li>Extreme cold temperatures</li>
-<li>Neighbors requesting help</li>
+<li>Family Argument</li>
 <li>Illness affecting the player</li>
 <li>Family bonding moments that improve relationships</li>
 </ul>
 
 <p>
-These events modify how sacrifices affect the player's survival categories.
+These events modify how many items the player has available to sacrifice, alongside affecting the player's survival categories.
 </p>
 
 <h2>Visual and Gameplay Style</h2>
@@ -122,15 +111,15 @@ These events modify how sacrifices affect the player's survival categories.
 <h2>Endings</h2>
 
 <p>
-The player must survive until spring. The final ending is determined by which
-survival category was most depleted during the winter.
+The player must survive 10 days of brutal winter. The final ending is determined by which
+survival category was most depleted during the run.
 </p>
 
 <ul>
 <li>Home Ending</li>
 <li>Self Ending</li>
 <li>Family Ending</li>
-<li>Survival Ending (reaching spring)</li>
+<li>Failure Ending (not reaching December 10)</li>
 </ul>
 
 <h2>Development Approach</h2>
@@ -147,11 +136,11 @@ open-world systems.
 <div style="display:flex; align-items:center; margin-bottom:40px;">
 
   <img src="/assets/img/hunger1.png" alt="Game Screenshot"
-       style="width:200px; margin-right:20px; border-radius:6px;">
+       style="width:400px; margin-right:20px; border-radius:6px;">
   <img src="/assets/img/hunger2.png" alt="Game Screenshot"
-       style="width:200px; margin-right:20px; border-radius:6px;">
+       style="width:400px; margin-right:20px; border-radius:6px;">
   <img src="/assets/img/hunger3.png" alt="Game Screenshot"
-       style="width:200px; margin-right:20px; border-radius:6px;">
+       style="width:400px; margin-right:20px; border-radius:6px;">
 </div>
 
 <h2>Game Design Document</h2>
